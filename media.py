@@ -39,9 +39,3 @@ movie_list.append(lotr)
 movie_list.append(cap_1)
 movie_list.append(avengers_2)
 movie_list.append(thor_3)
-
-for movie in movie_list:
-    print("Title: {}\nAlbum Cover: {}\nTrailer: {}\n".format(movie.title, movie.post_url, movie.trailer))
-
-
-
