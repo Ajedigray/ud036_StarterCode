@@ -24,3 +24,15 @@ thor_3 = Movie("Thor: Ragnarok",
                "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyNDkzMzI1OF5BMl5BanBnXkFtZTgwODcxODg5MjI@._V1_UY1200_CR90,0,630,1200_AL_.jpg",
                "https://www.youtube.com/watch?v=ue80QwXMRHg")
 
+
+movie_list = []
+
+movie_list.append(star_wars)
+movie_list.append(pirates_1)
+movie_list.append(lotr)
+movie_list.append(cap_1)
+movie_list.append(avengers_2)
+movie_list.append(thor_3)
+
+for movie in movie_list:
+    print(movie.title)
