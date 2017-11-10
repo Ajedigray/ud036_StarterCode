@@ -34,5 +34,3 @@ movie_list.append(cap_1)
 movie_list.append(avengers_2)
 movie_list.append(thor_3)
 
-for movie in movie_list:
-    print(movie.title)
