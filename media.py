@@ -1,7 +1,8 @@
 class Movie:
 
-    def __init__(self, title, post_url, trailer):
+    def __init__(self, title, poster, trailer):
         self.title = title
-        self.post_url = post_url
-        self.trailer = trailer
+        self.poster_image_url = poster
+        self.trailer_youtube_url = trailer
+
 
