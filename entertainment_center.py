@@ -1,5 +1,6 @@
 from media import Movie
 
+# movie objects instantiated from the Movie class
 star_wars = Movie("Star Wars: Empire Strikes Back",
                   "https://images-na.ssl-images-amazon.com/images/I/91%2BCydthCeL._SY445_.jpg",
                   "https://www.youtube.com/watch?v=JNwNXF9Y6kY")
@@ -25,8 +26,9 @@ thor_3 = Movie("Thor: Ragnarok",
                "https://www.youtube.com/watch?v=ue80QwXMRHg")
 
 
-movie_list = []
+movie_list = list()
 
+# adding movies to a list to be used by fresh_tomatoes
 movie_list.append(star_wars)
 movie_list.append(pirates_1)
 movie_list.append(lotr)
