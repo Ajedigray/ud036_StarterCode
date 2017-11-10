@@ -31,3 +31,17 @@ thor_3 = Movie("Thor: Ragnarok",
                "https://www.youtube.com/watch?v=ue80QwXMRHg")
 
 
+movie_list = list()
+
+movie_list.append(star_wars)
+movie_list.append(pirates_1)
+movie_list.append(lotr)
+movie_list.append(cap_1)
+movie_list.append(avengers_2)
+movie_list.append(thor_3)
+
+# for movie in movie_list:
+    # print("Title: {}\nAlbum Cover: {}\nTrailer: {}\n".format(movie.title, movie.post_url, movie.trailer))
+
+
+
