@@ -168,5 +168,5 @@ def open_movies_page(movies):
     webbrowser.open('file://' + url, new=2)
 
 
-# open_movies_page(entertainment_center.movie_list)
+open_movies_page(entertainment_center.movie_list)
 
