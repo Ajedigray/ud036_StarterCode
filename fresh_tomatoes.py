@@ -88,7 +88,7 @@ main_page_head = '''
 
 # The main page layout and title bar
 main_page_content = '''
-  <body>
+  <body background="http://www.top4themes.com/data/out/131/6521676-star-wars-wallpapers.jpg">
     <!-- Trailer Video Modal -->
     <div class="modal" id="trailer">
       <div class="modal-dialog">
@@ -123,7 +123,7 @@ main_page_content = '''
 # A single movie entry html template
 movie_tile_content = '''
 <div class="col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
-    <img src="{poster_image_url}" width="220" height="342">
+    <img src="{poster_image_url}" width="220" height="342"  background="transparent url(poster_image_url)">
     <h2>{movie_title}</h2>
 </div>
 '''
