@@ -1,9 +1,9 @@
 from media import Movie
 
 # movie objects instantiated from the Movie class
-star_wars = Movie("Star Wars: Empire Strikes Back",
-                  "https://images-na.ssl-images-amazon.com/images/I/91%2BCydthCeL._SY445_.jpg",
-                  "https://www.youtube.com/watch?v=JNwNXF9Y6kY")
+star_wars = Movie("Star Wars: The Force Awakens",
+                  "https://vignette2.wikia.nocookie.net/starwars/images/f/fd/Star_Wars_Episode_VII_The_Force_Awakens.jpg/revision/latest?cb=20151018162823",
+                  "https://www.youtube.com/watch?v=sGbxmsDFVnE")
 
 pirates_1 = Movie("Pirates of the Caribbean: Curse of the Black Pearl",
                   "https://i.jeded.com/i/pirates-of-the-caribbean-1-the-curse-of-the-black-pearl.12323.jpg",
@@ -35,4 +35,3 @@ movie_list.append(lotr)
 movie_list.append(cap_1)
 movie_list.append(avengers_2)
 movie_list.append(thor_3)
-
