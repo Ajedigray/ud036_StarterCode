@@ -18,6 +18,7 @@ main_page_head = '''
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
         body {
+            color: white;
             padding-top: 80px;
         }
         #trailer .modal-dialog {
@@ -40,7 +41,7 @@ main_page_head = '''
             padding-top: 20px;
         }
         .movie-tile:hover {
-            background-color: #EEE;
+            background: transparent;
             cursor: pointer;
         }
         .scale-media {
@@ -168,3 +169,4 @@ def open_movies_page(movies):
 
 
 # open_movies_page(entertainment_center.movie_list)
+
