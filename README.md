@@ -1,8 +1,21 @@
 # ud036_StarterCode
 Source code for a Movie Trailer website.
 
-Open fresh_tomatoes.py, media.py, and entertainment_center.py
+Introduction
 
-Un-comment line 170 in fresh_tomatoes.py and run the file
+    This application will generate a movie trailer website
+    The website will contain six independent movie trailers that can be viewed directly from the site
+    This application requires Python Version 3.6.3
+    
+Content
 
-The file will run and create an html file, displaying my Movie Trailers Website
+    media.py - Contains Movie class
+    entertainment_center.py - Contains movie objects to be used on website
+    fresh_tomatoes.py - File formats and generates HTML file (fresh_tomatoes.html)
+    README - Documentation for project
+    
+Operating Instructions
+
+    Pull ud036_StarterCode repository from my gitHub account
+    Using Terminal: run
+        python fresh_tomatoes.py
