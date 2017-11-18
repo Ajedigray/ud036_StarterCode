@@ -20,6 +20,9 @@ main_page_head = '''
         body {
             color: white;
             padding-top: 80px;
+            background-image: url("https://i.ytimg.com/vi/Q3Nl-8HjQQU/hqdefault.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         #trailer .modal-dialog {
             margin-top: 200px;
